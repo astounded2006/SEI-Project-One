@@ -1,0 +1,73 @@
+body {
+  font-family: sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.board {
+  margin: 15px;
+  
+}
+
+table {
+  border-collapse: collapse;
+
+}
+
+td {
+  border: 2px solid black;
+  width: 30px;
+  height: 30px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+}
+
+
+.list {
+display: flex;
+justify-content: space-between;
+}
+
+.hit {
+  background-image: url('../assets/fire.svg'); 
+}
+
+
+.miss {
+  background-image: url('../assets/cross.svg'); 
+  background-size: 20px;
+}
+
+.sunk {
+  background-image: url('../assets/skull.svg'); 
+}
+
+a {
+  position: relative;
+  width: 300px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  text-decoration: underline;
+  letter-spacing: 7px;
+  border: 2px solid rgb(0, 0, 0);
+  color: #000000;
+  transition: 0.5s;
+  overflow: hidden;
+}
